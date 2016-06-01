@@ -18,6 +18,18 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Code\Engine\Core\Engine.cpp" />
+    <ClCompile Include="Code\Engine\Core\Renderer.cpp" />
+    <ClCompile Include="Code\TestEnv\Main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Code\DevHelper\DevHelper.h" />
+    <ClInclude Include="Code\Engine\Core\Engine.h" />
+    <ClInclude Include="Code\Engine\Core\Renderer.h" />
+    <ClInclude Include="Code\Engine\Interfaces\IDraw.h" />
+    <ClInclude Include="Code\Engine\Interfaces\IEngineLoop.h" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{6A8A828B-20A9-405B-856E-D200102A6880}</ProjectGuid>
     <RootNamespace>EternalisEngine2D</RootNamespace>
@@ -109,8 +121,6 @@
       <OptimizeReferences>true</OptimizeReferences>
     </Link>
   </ItemDefinitionGroup>
-  <ItemGroup>
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

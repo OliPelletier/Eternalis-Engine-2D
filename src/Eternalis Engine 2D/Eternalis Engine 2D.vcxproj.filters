@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resources">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Code">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Code\TestEnv">
+      <UniqueIdentifier>{9a4b3e32-8cb9-448c-a4c3-93d8273b7189}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Code\DevHelper">
+      <UniqueIdentifier>{d35e6196-7d73-4640-af36-12ea67d0242f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Code\Engine">
+      <UniqueIdentifier>{6e75794b-be83-4777-8f2f-f1c1c333f1ea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Code\Engine\Core">
+      <UniqueIdentifier>{5901fd74-8605-485f-88f2-8011f217d4bd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Code\Engine\ResourcesManager">
+      <UniqueIdentifier>{40cbc14a-1619-42ec-b032-3669c87791bc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Code\Engine\Interfaces">
+      <UniqueIdentifier>{289cf405-7b1b-4c11-9bb7-e6aba0b2d44d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Code\TestEnv\Main.cpp">
+      <Filter>Code\TestEnv</Filter>
+    </ClCompile>
+    <ClCompile Include="Code\Engine\Core\Engine.cpp">
+      <Filter>Code\Engine\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Code\Engine\Core\Renderer.cpp">
+      <Filter>Code\Engine\Core</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Code\DevHelper\DevHelper.h">
+      <Filter>Code\DevHelper</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\Engine\Core\Engine.h">
+      <Filter>Code\Engine\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\Engine\Core\Renderer.h">
+      <Filter>Code\Engine\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\Engine\Interfaces\IEngineLoop.h">
+      <Filter>Code\Engine\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\Engine\Interfaces\IDraw.h">
+      <Filter>Code\Engine\Interfaces</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
