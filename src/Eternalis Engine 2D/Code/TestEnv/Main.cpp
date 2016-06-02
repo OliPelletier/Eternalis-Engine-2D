@@ -5,8 +5,8 @@
 
 int main()
 {
+	ConsolePrint("Test ", 5, " Test2");
 	GEngine->StartUp();
 	GEngine->StartLoop();
-
 	system("pause");
 }
